@@ -1,6 +1,6 @@
-require('dotenv').config();
-        const CLIENT_ID = process.env.CLIENT_ID;
-        const CLIENT_SECRET = process.env.CLIENT_SECRET;
+        //consts
+        const CLIENT_ID = '31f25c15fa8a4c4a845595ffbcb2d076';
+        const CLIENT_SECRET = 'b6d93473aaeb4079aadbd1973854ec9f';
         const modeToggle = document.getElementById('mode-toggle');
         let accessToken = '';
         let audioPlayer = new Audio();
